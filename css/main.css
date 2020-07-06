@@ -5,6 +5,7 @@
     background-color: #222222;
     color: #ffffff;
     line-height: 180%;
+    letter-spacing: 0;
 
 }
 
@@ -94,11 +95,7 @@ footer {
 
     * {
 
-        font-family: 'Roboto','Noto sans JP';
         margin: 40px 20px;
-        background-color: #222222;
-        color: #ffffff;
-        line-height: 180%;
     
     }
 
