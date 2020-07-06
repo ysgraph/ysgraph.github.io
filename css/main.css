@@ -92,6 +92,16 @@ footer {
 @media (max-width: 670px)
 {
 
+    * {
+
+        font-family: 'Roboto','Noto sans JP';
+        margin: 40px 20px;
+        background-color: #222222;
+        color: #ffffff;
+        line-height: 180%;
+    
+    }
+
     h1 {
     
         font-size: 36px;
