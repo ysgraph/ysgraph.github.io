@@ -110,6 +110,23 @@ img:hover {
 
 }
 
+.btn {
+
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 900;
+    border-radius: 24px;
+    display: inline-block;
+    height: 48px;
+    width:  200px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    overflow: hidden;
+    text-decoration:none;
+    transition: .1s;
+
+  }
+
 footer {
 
     margin: 100px 0 20px ;
