@@ -1,7 +1,7 @@
-AuthUserFile /home/path../.htpasswd
-AuthGroupFile /dev/null
-AuthName "IDとパスワードを入力してください。"
 AuthType Basic
+AuthUserFile /home/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Input ID and Password."
 require valid-user
 <Files ~ "^.(htpasswd|htaccess)$">
 deny from all
