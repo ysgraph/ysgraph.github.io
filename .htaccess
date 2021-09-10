@@ -3,6 +3,3 @@ AuthUserFile "/"
 AuthGroupFile /dev/null
 AuthName "Input ID and Password."
 require valid-user
-<Files ~ "^.(htpasswd|htaccess)$">
-deny from all
-</Files>
