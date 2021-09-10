@@ -1,5 +1,5 @@
 AuthType Basic
-AuthUserFile "/index.html"
+AuthUserFile "/"
 AuthGroupFile /dev/null
 AuthName "Input ID and Password."
 require valid-user
