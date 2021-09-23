@@ -1,5 +1,0 @@
-AuthType Basic
-AuthUserFile "/"
-AuthGroupFile /dev/null
-AuthName "Input ID and Password."
-require valid-user
