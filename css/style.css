@@ -92,7 +92,7 @@ header {
 }
 
 .footer-wrapper {
-    padding-top: 56px;
+    padding-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -209,8 +209,8 @@ span.color {
     z-index: -1;
     bottom: -380px;
     right: -100px;
-    width: 1100px;
-    height: 900px;
+    width: 1300px;
+    height: 1000px;
     background: rgba(255, 250, 245, 0.03);
     animation: fluidrotate 16s ease 0s infinite;
 }
