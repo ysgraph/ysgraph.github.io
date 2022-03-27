@@ -11,13 +11,13 @@
 html {
     margin: 0;
     padding: 0;
-    background: linear-gradient(285.41deg, rgba(18, 18, 18, 1), #232323 100%);
-    background-attachment: fixed;
+    background: #191919;
 }
 
 body {
-    margin: 0;
     padding: 0;
+    background: linear-gradient(285.41deg, rgba(18, 18, 18, 1), #232323 100%);
+    background-attachment: fixed;
     color: rgba(255, 250, 245, 0.87);
 }
 
