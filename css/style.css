@@ -41,6 +41,9 @@ ul,li {
 }
 
 .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
     width: 100%;
     margin: 0 auto;
     max-width: 1080px;
@@ -104,8 +107,8 @@ header {
 
 /* typography */
 
-.page-title {
-    width: 100%;
+.page-title,
+.page-version{
     font-family: 'Roboto Mono', sans-serif;
     color: rgba(255, 250, 245, 0.87);
 }
