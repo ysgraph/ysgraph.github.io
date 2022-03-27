@@ -83,7 +83,7 @@ header {
     display: flex;
     align-items: left;
     justify-content: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .container {
@@ -115,7 +115,7 @@ header {
 
 .copy {
     font-size: 48px;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
     line-height: 140%;
     font-family: 'Poppins', sans-serif;
     color: rgba(255, 250, 245, 0.87);
@@ -135,9 +135,11 @@ h2 {
 }
 
 dt {
-    font-size: 22px;
+    font-size: 28px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 6px;
 }
 
 h1,
@@ -145,6 +147,7 @@ p,
 dd,
 small {
     font-weight: 300;
+    font-family: 'Roboto Mono', sans-serif;
     color: rgba(255, 250, 245, 0.54);
     margin: 0;
     font-size: 12px;
@@ -152,7 +155,7 @@ small {
 
 small {
     font-family: 'Roboto Mono', sans-serif;
-    color: rgba(255, 250, 245, 0.6);
+    color: rgba(255, 250, 245, 0.87);
 }
 
 span {
@@ -185,7 +188,7 @@ span {
     animation-fill-mode:forwards;
     opacity:0;
 }
-
+/* 
 @keyframes fade-in{
     from {
       opacity: 0;
@@ -195,3 +198,40 @@ span {
       opacity: 1;
     }
 }
+
+.fluid {
+    position: fixed;
+    z-index: -1;
+    bottom: -180px;
+    right: -100px;
+    width: 800px;
+    height: 800px;
+    background: #1c1c1c;
+    animation: fluidrotate 12s ease 0s infinite;
+  }
+  
+  @keyframes fluidrotate {  
+        
+  0%, 100% {
+      border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+  }
+  14% {
+      border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+  }
+  28% {
+      border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+  }
+  42% {
+      border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+  }
+  56% {
+      border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+  }
+  70% {
+      border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+  }
+  84% {
+      border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+  }
+        
+  } */
