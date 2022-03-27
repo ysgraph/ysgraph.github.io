@@ -162,6 +162,11 @@ span {
     font-weight: 300;
 }
 
+span.color {
+    font-weight: 700;
+    color: #D3FE43;
+}
+
 /* button */
 
 .social-link {
@@ -198,7 +203,7 @@ span {
       opacity: 1;
     }
 }
-/* 
+
 .fluid {
     position: fixed;
     z-index: -1;
@@ -234,4 +239,4 @@ span {
       border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
   }
         
-  } */
+  }
