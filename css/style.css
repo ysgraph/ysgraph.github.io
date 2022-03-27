@@ -211,7 +211,7 @@ span.color {
     right: -100px;
     width: 1300px;
     height: 1000px;
-    background: rgba(255, 250, 245, 0.03);
+    background: rgba(255, 250, 245, 0.02);
     animation: fluidrotate 16s ease 0s infinite;
 }
 
