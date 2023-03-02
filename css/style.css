@@ -12,6 +12,7 @@ html {
     margin: 0;
     padding: 0;
     background: #191919;
+    color: rgba(255, 250, 245, 0.87);
 }
 
 body {
@@ -19,7 +20,6 @@ body {
     padding: 0;
     background: linear-gradient(285.41deg, rgba(18, 18, 18, 1), #232323 100%);
     background-attachment: fixed;
-    color: rgba(255, 250, 245, 0.87);
 }
 
 ul,li {
@@ -31,8 +31,7 @@ ul,li {
 /* wrap */
 
 .wrapper,
-.fv-wrapper,
-.footer-wrapper {
+.fv-wrapper {
     width: 100%;
     margin: 0 auto;
     max-width: 1080px;
@@ -40,6 +39,7 @@ ul,li {
     box-sizing: border-box;
 }
 
+.footer-wrapper,
 .header-wrapper {
     display: flex;
     justify-content: space-between;
@@ -107,8 +107,7 @@ header {
 
 /* typography */
 
-.page-title,
-.page-version{
+.page-title {
     font-family: 'Roboto Mono', sans-serif;
     color: rgba(255, 250, 245, 0.87);
 }
@@ -169,7 +168,17 @@ span.color {
 
 /* button */
 
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+ }
+
 .social-link {
+    display: block;
     width: 32px;
     height: 32px;
     opacity: 0.87;
@@ -180,9 +189,20 @@ span.color {
     opacity: 1;
 }
 
-.social-icon {
-    width: 32px;
-    height: 32px;
+.social-link:active {
+    opacity: 0.6;
+}
+
+.social-icon,
+.theme-switch-dark,
+.theme-switch-light {
+    width: 100%;
+    height: 100%;
+    fill: rgba(255, 250, 245, 0.87);
+}
+
+.theme-switch-light {
+    display: none;
 }
 
 /* motion */
@@ -250,4 +270,67 @@ span.color {
         border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
     }
     
+}
+
+/* light theme */
+
+.light html {
+    background: #FFFFFF;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.light body {
+    background: linear-gradient(285.41deg, #FFFFFF 0%, #F0F0F0 100%);
+}
+
+.light .page-title {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.light .page-title {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.light .copy {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.light h2 {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.light dt {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.light h1,
+.light p,
+.light dd,
+.light small {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.light small {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.light span.color {
+    color: #5639CC;
+}
+
+.light .fluid {
+    background: linear-gradient(132.6deg, rgba(0, 0, 0, 0.012) 0%, rgba(0, 0, 0, 0.092) 100%);
+}
+
+.light .social-icon {
+    fill: rgba(0, 0, 0, 0.87);
+}
+
+.light .theme-switch-dark {
+    display: none;
+}
+
+.light .theme-switch-light {
+    display: block;
+    fill: rgba(0, 0, 0, 0.87);
 }
